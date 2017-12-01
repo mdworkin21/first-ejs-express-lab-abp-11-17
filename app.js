@@ -3,7 +3,7 @@ var app = express()
 
 // Build Your Route Here
 app.get(`/`, function(req, resp){
-    resp.render({welcomePhrase: "Hello, World!"})
+    resp.render('/', {welcomePhrase: "Hello, World!"})
 
 })
 
